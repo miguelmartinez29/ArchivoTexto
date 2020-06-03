@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author alex0
+ * @author miguel
  */
 public class FrmPrincipal extends javax.swing.JFrame {
 
@@ -41,16 +41,20 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setForeground(new java.awt.Color(204, 0, 0));
         jLabel1.setText("Manejo de archivos de texto");
 
+        jLabel2.setForeground(new java.awt.Color(51, 204, 0));
         jLabel2.setText("Ingresa tu Nombre");
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 204));
         jLabel3.setText(" Contenido en el archivo");
 
         txtContenido.setColumns(20);
         txtContenido.setRows(5);
         jScrollPane1.setViewportView(txtContenido);
 
+        btnGrabar.setForeground(new java.awt.Color(0, 204, 204));
         btnGrabar.setText("Grabar");
         btnGrabar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,6 +62,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnMostrar.setForeground(new java.awt.Color(0, 204, 204));
         btnMostrar.setText("Mostrar");
         btnMostrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

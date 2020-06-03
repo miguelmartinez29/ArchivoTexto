@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author alex0
+ * @author miguel
  */
 public class Archivos {
     public void Grabar(String cadena){
